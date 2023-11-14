@@ -15,9 +15,10 @@ const Home = () => {
             I am a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and designing software.
-            Currently I love to work on web application using technologies like
-            React, Tailwind, NodeJs, Express.
+            I have 3 years of experience building and designing software.
+            Presently, I find joy in developing web applications, and my
+            interest lies in harnessing the MERN (MongoDB, Express.js, React,
+            Node.js) stack.
           </p>
           <div>
             <Link
@@ -41,19 +42,6 @@ const Home = () => {
           />
         </div>
       </div>
-      {/* <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-normal h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-          </p>
-          <div>
-              Portfolio
-              </span>
-            </button>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

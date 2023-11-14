@@ -1,27 +1,34 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import Foodscope from "../assets/portfolio/Foodscope.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
-
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: Foodscope,
+      codeLink: "https://github.com/DolmaBhuti/Foodscope",
+      demoLink: "https://foodscope.onrender.com/",
     },
-    {
-      id: 2,
-      src: reactWeather,
-    },
-    {
-      id: 3,
-      src: installNode,
-    },
-    {
-      id: 4,
-      src: reactParallax,
-    },
+    // {
+    //   id: 2,
+    //   src: reactWeather,
+    //   codeLink: "",
+    //   demoLink: "",
+    // },
+    // {
+    //   id: 3,
+    //   src: installNode,
+    //   codeLink: "",
+    //   demoLink: "",
+    // },
+    // {
+    //   id: 4,
+    //   src: reactParallax,
+    //   codeLink: "",
+    //   demoLink: "",
+    // },
   ];
   return (
     <div
@@ -36,16 +43,24 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => {
+          {portfolios.map(({ id, src, codeLink, demoLink }) => {
             return (
               <div key={id} className="shadow-md shadow-gray-60 rounded-lg">
-                <img src={src} alt="" className="rounded-md hover:scale-105" />
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md hover:scale-105 object-fill h-40 w-80"
+                />
                 <div>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Demo
+                  <button className="w-1/3 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    <a href={demoLink} target="_blank" rel="noreferrer">
+                      Demo
+                    </a>
                   </button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Code
+                  <button className="w-1/3 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    <a href={codeLink} target="_blank" rel="noreferrer">
+                      Code
+                    </a>
                   </button>
                 </div>
               </div>

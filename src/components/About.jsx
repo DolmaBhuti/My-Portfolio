@@ -12,22 +12,28 @@ const About = () => {
             About Me
           </p>
           <p className="text-xl mt-20">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ex
-            eius perferendis similique inventore unde, architecto hic quo sed
-            quas ratione delectus reiciendis et voluptate cum iste. Unde,
-            nesciunt. Suscipit est commodi eos placeat doloremque quaerat dicta
-            labore earum rerum debitis veniam odit non dolorum voluptas,
-            voluptate architecto laudantium tempore.
+            Hello! I am a dynamic and enthusiastic software developer who
+            recently completed a comprehensive diploma program, equipping me
+            with a solid foundation in the latest programming languages and
+            technologies. My skill set includes proficiency in languages such as
+            C++, Python, and JavaScript, with a particular focus on Node.js and
+            Express for server-side development.
           </p>
           <br />
 
           <p className="text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-            assumenda dignissimos recusandae deleniti non nam perferendis saepe
-            ut explicabo vitae sequi dolores consequuntur magni ipsum fugiat
-            obcaecati architecto consectetur laborum, quidem ducimus expedita
-            tempore in. Obcaecati repellendus ratione cupiditate quisquam illum?
-            Fugiat nam non laudantium consequatur saepe quas facilis corporis.
+            I have hands-on experience in web development, database management,
+            and software engineering principles. Leveraging the power of Node.js
+            and Express, I've built scalable and efficient server-side
+            applications, showcasing my ability to create robust and responsive
+            backends. I am adept at problem-solving and thrive in collaborative
+            environments where I can apply my analytical mindset to develop
+            innovative solutions. My commitment to staying abreast of industry
+            trends ensures that I am always ready to embrace new challenges and
+            contribute effectively to any development team. With a passion for
+            creating efficient and user-friendly applications, I am excited to
+            embark on my journey as a software developer and make meaningful
+            contributions to the ever-evolving world of technology.
           </p>
         </div>
       </div>
