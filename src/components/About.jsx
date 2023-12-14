@@ -19,7 +19,7 @@ const About = () => {
             dynamic, secure, and user-centric solutions.
           </p>
 
-          <p className="text-xl">
+          <p className="text-xl mt-1">
             My experience spans web development, database management, and
             software engineering. I've built scalable applications using Node.js
             and Express, showcasing my problem-solving skills and collaborative
@@ -29,6 +29,7 @@ const About = () => {
             excited to make meaningful contributions to the ever-evolving tech
             landscape.
           </p>
+          <p></p>
           <br />
         </div>
       </div>
