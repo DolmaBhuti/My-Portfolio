@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/Dolma_Bhuti_Resume.pdf";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -38,7 +39,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: resume,
       style: "rounded-br-md",
       download: true,
     },
