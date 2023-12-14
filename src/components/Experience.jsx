@@ -7,7 +7,8 @@ import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
-
+import bootstrap from "../assets/bootstrap.png";
+import angular from "../assets/angular.png";
 const Experience = () => {
   const techs = [
     {
@@ -51,6 +52,18 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-500",
+    },
+    {
+      id: 8,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 9,
+      src: angular,
+      title: "AngularJS",
+      style: "shadow-red-500",
     },
   ];
   return (

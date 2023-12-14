@@ -1,8 +1,7 @@
 import React from "react";
 import Foodscope from "../assets/portfolio/Foodscope.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import MyMusicApp from "../assets/portfolio/MyMusicApp.jpg";
+
 const Portfolio = () => {
   const portfolios = [
     {
@@ -10,25 +9,19 @@ const Portfolio = () => {
       src: Foodscope,
       codeLink: "https://github.com/DolmaBhuti/Foodscope",
       demoLink: "https://foodscope.onrender.com/",
+      title: "E-Commerce",
+      techUsed:
+        "Tech used: JavaScript, HTML, CSS, Handlebars, Nodejs, Express, MongoDb, Mongoose",
     },
-    // {
-    //   id: 2,
-    //   src: reactWeather,
-    //   codeLink: "",
-    //   demoLink: "",
-    // },
-    // {
-    //   id: 3,
-    //   src: installNode,
-    //   codeLink: "",
-    //   demoLink: "",
-    // },
-    // {
-    //   id: 4,
-    //   src: reactParallax,
-    //   codeLink: "",
-    //   demoLink: "",
-    // },
+    {
+      id: 2,
+      src: MyMusicApp,
+      codeLink: "https://github.com/DolmaBhuti/My_Music_App",
+      demoLink: "https://dolmasmusicapp.netlify.app/",
+      title: "My Music App",
+      techUsed:
+        "Tech used: Typescript, HTML, Bootstrap, MongoDB, ExpressJs, AngularJS, Nodejs, Redis ",
+    },
   ];
   return (
     <div
@@ -43,29 +36,35 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, codeLink, demoLink }) => {
-            return (
-              <div key={id} className="shadow-md shadow-gray-60 rounded-lg">
-                <img
-                  src={src}
-                  alt=""
-                  className="rounded-md hover:scale-105 object-fill h-40 w-80"
-                />
-                <div>
-                  <button className="w-1/3 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    <a href={demoLink} target="_blank" rel="noreferrer">
-                      Demo
-                    </a>
-                  </button>
-                  <button className="w-1/3 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    <a href={codeLink} target="_blank" rel="noreferrer">
-                      Code
-                    </a>
-                  </button>
+          {portfolios.map(
+            ({ id, src, codeLink, demoLink, title, techUsed }) => {
+              return (
+                <div
+                  key={id}
+                  className="shadow-md shadow-gray-60 rounded-lg bg-slate-300 text-black"
+                >
+                  <img
+                    src={src}
+                    alt="Project screenshot"
+                    className="rounded-md object-fill h-40 w-80 hover:scale-110 "
+                  />
+                  <div className="text-center">
+                    <p className="mt-1 px-6 py-3">{techUsed}</p>
+                    <button className="w-1/3 px-6 py-3 m-4 duration-200 hover:scale-105 bg-slate-300 ">
+                      <a href={demoLink} target="_blank" rel="noreferrer">
+                        Live
+                      </a>
+                    </button>
+                    <button className="w-1/3 px-6 py-3 m-4 duration-200 hover:scale-105  bg-slate-300">
+                      <a href={codeLink} target="_blank" rel="noreferrer">
+                        Code
+                      </a>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            }
+          )}
         </div>
       </div>
     </div>
