@@ -19,7 +19,7 @@ const About = () => {
             dynamic, secure, and user-centric solutions.
           </p>
 
-          <p className="text-xl mt-1">
+          <p className="text-xl mt-5">
             My experience spans web development, database management, and
             software engineering. I've built scalable applications using Node.js
             and Express, showcasing my problem-solving skills and collaborative
@@ -29,7 +29,16 @@ const About = () => {
             excited to make meaningful contributions to the ever-evolving tech
             landscape.
           </p>
-          <p></p>
+          <p className="text-xl text-gray-600/100 flex justify-center mt-5">
+            <a
+              href="https://github.com/DolmaBhuti/My-Portfolio"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 border-gray-600 p-2"
+            >
+              Check out my GitHub page!
+            </a>
+          </p>
           <br />
         </div>
       </div>

@@ -18,7 +18,7 @@ const Home = () => {
             I have 3 years of experience building and designing software.
             Presently, I find joy in developing web applications, and my
             interest lies in harnessing the MERN (MongoDB, Express.js, React,
-            Node.js) stack.
+            Node.js) and MEAN (MongoDB, Express.js, AngularJS, Node.js) stacks.
           </p>
           <div>
             <Link
