@@ -12,10 +12,11 @@ const About = () => {
             A Bit About Me
           </p>
           <p className="text-xl mt-20">
-            Hi there! I'm a dynamic software developer with a comprehensive
-            diploma in programming languages and technologies. Proficient in
-            C++, and JavaScript, I specialize in Node.js and Express for robust
-            server-side development.
+            I'm a versatile full-stack developer adept at crafting robust
+            applications across the stack. With expertise in frontend
+            technologies like Angular and Bootstrap, alongside backend
+            proficiency in Node.js, MongoDB, and Express, I excel in delivering
+            dynamic, secure, and user-centric solutions.
           </p>
 
           <p className="text-xl">
