@@ -70,7 +70,6 @@ const NavBar = () => {
                   >
                     {link}
                   </Link>
-                  {link}
                 </li>
               );
             })}
